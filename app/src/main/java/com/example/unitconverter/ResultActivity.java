@@ -38,7 +38,7 @@ public class ResultActivity extends AppCompatActivity {
             tvDetailInfo.setText(detailText);
 
 
-            String resultText = String.format(Locale.getDefault(), "%.4f", result);
+            String resultText = String.format(Locale.getDefault(), "%.2f", result);
 
 
             if (sourceUnit.contains("Santigrat") || sourceUnit.contains("Fahrenhayt")) {
