@@ -33,7 +33,7 @@ public class ResultActivity extends AppCompatActivity {
             double result = intent.getDoubleExtra("KEY_RESULT", 0.0);
 
 
-            String detailText = String.format(Locale.getDefault(), "%.4f %s değeri, %s birimine dönüştürüldü.",
+            String detailText = String.format(Locale.getDefault(), "%.2f %s değeri, %s birimine dönüştürüldü.",
                     inputValue, sourceUnit, targetUnit);
             tvDetailInfo.setText(detailText);
 
